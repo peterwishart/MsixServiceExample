@@ -55,9 +55,6 @@ The main problems I encountered were:
 
  - I did see some claims that localSystem services aren't supported but it works when I tested it (I assume these caveats were for publishing via Windows Store)
 
- - I had problems with .Net 5.0 to get platform agnostic ("any cpu") publish working while staying framework-dependent but it works with .Net 6.0:
-   - Make sure there's a release solution configuration which targets "Any CPU"
-   - During publish select Neutral Architecture and the Any CPU configuration
-
 Todo:
+- Get platform agnostic ("any cpu") publish working while staying framework-dependent
  - Add precondition that dotnet runtime is installed 
